@@ -12,7 +12,6 @@ public class EmployeeWage {
 
         for (int i = 0; i <= 20; i++) {
             double empCheck = Math.floor(Math.random() * 10) % 3;
-            double empCheck = Math.floor(Math.random() * 10) % 3;
             switch ((int) empCheck) {
                 case 0:
                     System.out.println("Employee is present");

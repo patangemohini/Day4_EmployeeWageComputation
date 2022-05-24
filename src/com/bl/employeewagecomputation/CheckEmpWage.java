@@ -1,18 +1,14 @@
-package employeewage;
+package com.bl.employeewagecomputation;
 
-public class EmployeeWage {
-
+public class CheckEmpWage {
     static final int WAGE_PER_HOUR = 20;
     static final int FULL_DAY_HOUR = 8;
     static final int PART_TIME = 4;
 
-    public static void main(String[] args) {
-
+    public void checkAttendanceAndEmpWage() {
         int daily_wage = 0;
         int hours = 0;
         int days = 0;
-
-        System.out.println("Welcome to Employee Wage Computation Program!");
 
         while (days < 20 && hours < 100) {
             double empCheck = Math.floor(Math.random() * 10) % 3;

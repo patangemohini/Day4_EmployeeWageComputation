@@ -7,5 +7,6 @@ public class EmployeeWage {
         CheckEmpWage checkEmpWage = new CheckEmpWage();
         checkEmpWage.checkAttendanceAndWage("Wipro", 20, 20, 100);
         checkEmpWage.checkAttendanceAndWage("Infosys", 22, 25, 120);
+        checkEmpWage.checkAttendanceAndWage("Dmart", 25,25, 130);
     }
 }
